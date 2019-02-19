@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import "./App.less";
 import { hot } from "react-hot-loader";
+import Map from "./Map.js";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <h1> React Scratch </h1>
+                <Map></Map>
             </div>
         );
-    }
-}
+    };
+};
 
 export default hot(module)(App);

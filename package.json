@@ -34,8 +34,10 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "mapbox-gl": "^0.53.0",
     "mobx-react": "^5.4.3",
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "react-map-gl": "^4.0.10"
   }
 }
